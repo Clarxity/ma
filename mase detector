@@ -1,3 +1,8 @@
+local message = Instance.new("Message")
+message.Text = "Script loaded"
+wait(1)
+message:Destroy
+
 game.Players.PlayerAdded:Connect(function(plr)
     if plr.UserId == 2390076298 then
         local msg = Instance.new("Message")
