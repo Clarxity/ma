@@ -1,0 +1,13 @@
+game.Players.PlayerAdded:Connect(function(plr)
+    if plr.UserId == 2390076298 then
+        local msg = Instance.new("Message")
+        msg.Text = "Mase is in your server."
+        wait(1)
+        msg:Destroy()
+    elseif plr.UserId == 3884943793 then
+        local msg = Instance.new("Message")
+        msg.Text = "Mase is in your server."
+        wait(1)
+        msg:Destroy()
+    end
+end)
